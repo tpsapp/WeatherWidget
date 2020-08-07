@@ -38,5 +38,13 @@
 }
 
 #footer {
+    position: absolute;
+    width: 100%;
+    top: 95vh;
     text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: white;
 }
