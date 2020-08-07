@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(skyblue, blue);
+    color: white;
+    font-size: 2em;
+}
+
+#locationSection, #temperatureSection {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#temperatureDegree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#temperatureNumber::after {
+    content: '\00b0';
+}
+
+#temperatureType {
+    margin-left: 5px;
+}
