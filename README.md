@@ -5,6 +5,8 @@ OpenWeatherMap.org API information can be found at https:*openweathermap.org/cur
 
 The main.js has comments for what each function does but below is a list of each class and what it's functions are for.
 
+Live Demo: https://www.thomassapp.com/WeatherWidget
+
 ## Classes
 
 ### UI Class
