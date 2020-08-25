@@ -22,7 +22,7 @@ class UI {
         // Update the img src for the weather icon with the API provided image
         locationIcon.src = `https://openweathermap.org/img/wn/${weatherInfo.weather['0'].icon}@4x.png`;
         // Add an alt tag to the image for accessibility purposes
-        locationIcon.alt = weatherInfo.weather['0'].main;
+        locationIcon.alt = weatherInfo.weather['0'].description;
         // Update the temperature with the API provide informaiton converted from kelvin to fahrenheit
         temperatureNumber.textContent = Conversion.kelvinToFahrenheit(weatherInfo.main.temp);
         // Update the weather description with the API provided text
@@ -86,7 +86,7 @@ class API {
     static getWeather(pos) {
         // The API key for OpenWeatherMap.org which can be obtained from signing up for free
         // Replace this with the key obtained from https://home.openweathermap.org/api_keys after you sign up
-        const apiKey = 'YouAPIKeyHere';
+        const apiKey = 'YourAPIKey';
         // The URL of the API call to OpenWeatherMap.org with the position and API key inserted
         // Documentation can be found at https://openweathermap.org/current
         const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${pos.latitude}&lon=${pos.longitude}&appid=${apiKey}`;
@@ -110,19 +110,19 @@ class Conversion {
     static kelvinToFahrenheit(degreesK) {
         // Converts kelvin to fahrenheit and returns the result rounded to the nearest 100th
         // The formula for conversion is F = (K * 9/5) - 459.67
-        return Math.round(((degreesK * (9/5)) - 459.67) * 10) / 10;
+        return Math.round((degreesK * (9/5)) - 459.67);
     }
 
     static fahrenheitToCelsius(degreesF) {
         // Converts fahrenheit to celsius and returns the result rounded to the nearest 100th
         // The formula for conversion is C = (F -32) * 5/9
-        return Math.round((degreesF - 32) * ( 5 / 9) * 10) / 10
+        return Math.round((degreesF - 32) * ( 5 / 9));
     }
 
     static celsiusToFahrenheit(degreesC) {
         // Converts celsius to fahrenheit and returns the result rounded to the nearest 100th
         // The formula for conversion is F = (C * 9/5) + 32
-        return Math.round((degreesC * ( 9 / 5) + 32) * 10) / 10
+        return Math.round(degreesC * ( 9 / 5) + 32);
     }
 }
 
