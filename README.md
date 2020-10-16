@@ -1,7 +1,7 @@
 # WeatherWidget
 A site to display the current weather at your location as retrieved from the OpenWeatherMap.org API.
 
-OpenWeatherMap.org API information can be found at https:*openweathermap.org/current
+OpenWeatherMap.org API information can be found at https://openweathermap.org/current
 
 The main.js has comments for what each function does but below is a list of each class and what it's functions are for.
 
