@@ -28,13 +28,13 @@ Please send all questions to [tpsapp@hotmail.com](mailto:tpsapp@hotmail.com) and
 
 This section guides you through submitting a bug report for my repositories. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
-Before creating bug reports, please perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Atpsapp)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one. When you are creating a bug report, please include as many details as possible. Fill out [the required template](https://github.com/tpsapp), the information it asks for helps us resolve issues faster.
+Before creating bug reports, please perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Atpsapp)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one. When you are creating a bug report, please include as many details as possible. Fill out [the required template](https://github.com/tpsapp/WeatherWidget/blob/master/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on this repository and provide the following information by filling in [the template](https://github.com/tpsapp).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on this repository and provide the following information by filling in [the template](https://github.com/tpsapp/WeatherWidget/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
